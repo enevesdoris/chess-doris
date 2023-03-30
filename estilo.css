@@ -1,0 +1,43 @@
+.coner, tr, td {
+    border-collapse: collapse;
+    border: 0.5px solid black;
+    text-align: center;
+    /* background-color: #76b5b5; */
+}
+
+.coner {
+    height: 600px;
+    width: 600px;
+    margin-top: 100px;
+}
+
+.square tr:nth-child(odd) td:nth-child(even) {
+    background: black;
+}
+
+.square tr:nth-child(even) td:nth-child(odd) {
+    background: black;
+}
+
+.torre {
+    width: 75px;
+    height: 75px;
+    /*background-color: #333;*/
+    /*border-radius: 50%;*/
+    background-image: url("image/TORRE.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    size: 75px;
+}
+
+.opcoes-de-movimento {
+    position: absolute;
+    
+    
+    /* código para estilizar as opções de movimento */
+}
+
+td {
+  
+  
+}
